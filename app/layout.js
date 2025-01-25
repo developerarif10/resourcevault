@@ -1,6 +1,5 @@
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
-
 const geistSans = Geist({
   variable: "--font-geist-sans",
   subsets: ["latin"],
@@ -12,8 +11,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata = {
-  title: "Resource Vault",
-  description: "Created by developerarif",
+  title: "Resource Vault - Web Development Resources",
+  description: "Collection of useful web development resources and tools",
 };
 
 export default function RootLayout({ children }) {
