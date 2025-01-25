@@ -1,0 +1,44 @@
+[
+  {
+    "url": "colorsandfonts.com",
+    "title": "Colors and Fonts",
+    "description": "Great fonts and color palette inspirations",
+    "category": "Design",
+    "icon": "https://colorsandfonts.com/favicon.ico"
+  },
+  {
+    "url": "getcssscan.com/css-checkboxes-examples",
+    "title": "Checkboxes Inspiration",
+    "description": "Click to copy checkbox styles",
+    "category": "Development",
+    "icon": "https://getcssscan.com/favicon.ico"
+  },
+  {
+    "url": "getcssscan.com/css-buttons-examples",
+    "title": "Buttons Inspiration",
+    "description": "Click to copy button styles",
+    "category": "Development",
+    "icon": "https://getcssscan.com/favicon.ico"
+  },
+  {
+    "url": "react-icons.github.ion",
+    "title": "React Icons",
+    "description": "Great icon packs from many websites.",
+    "category": "Development",
+    "icon": "https://react-icons.github.io/favicon.ico"
+  },
+  {
+    "url": "lookup.design",
+    "title": "Lookup.design",
+    "description": "Website components inspirations",
+    "category": "Design",
+    "icon": "https://lookup.design/favicon.ico"
+  },
+  {
+    "url": "microcopy.me",
+    "title": "Microcopy",
+    "description": "Website copy instead of lorem ipsum.",
+    "category": "Articles",
+    "icon": "https://microcopy.me/favicon.ico"
+  }
+]
