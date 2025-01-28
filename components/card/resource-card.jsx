@@ -1,20 +1,20 @@
-import { ExternalLink } from "lucide-react";
-import Link from "next/link";
-
-export function Card({ url, title, description }) {
+export function Card({ title, description, url, category }) {
   return (
-    <Link
-      href={`https://${url}`}
+    <a
+      href={url}
       target="_blank"
       rel="noopener noreferrer"
-      className="block p-6 rounded-lg bg-[#1a1a1a] border border-gray-800 hover:border-gray-700 transition-colors group"
+      className="block h-full p-4 rounded-lg bg-[#1a1a1a] border border-gray-800 hover:border-gray-700 transition-colors"
     >
-      <div className="flex justify-between items-start">
-        <p className="text-gray-400 text-sm mb-2">{url}</p>
-        <ExternalLink className="w-4 h-4 text-gray-500 group-hover:text-gray-400 transition-colors" />
+      <div className="space-y-3">
+        <div className="flex items-start justify-between">
+          <h3 className="font-medium text-gray-100 line-clamp-1">{title}</h3>
+          <span className="px-2 py-1 text-xs rounded-md bg-gray-800 text-gray-300">
+            {category}
+          </span>
+        </div>
+        <p className="text-sm text-gray-400 line-clamp-2">{description}</p>
       </div>
-      <h2 className="text-xl font-semibold mb-2">{title}</h2>
-      <p className="text-gray-400">{description}</p>
-    </Link>
+    </a>
   );
 }

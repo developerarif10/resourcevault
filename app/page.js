@@ -11,16 +11,6 @@ export default async function Home() {
 
         {/* Search and Filter Section */}
         <FilteredCardPage resources={resources} />
-
-        {/* Load More Button */}
-        <div className="flex justify-center">
-          <button
-            // onClick={loadMore}
-            className="px-6 py-3 bg-[#1a1a1a] hover:bg-[#252525] rounded-lg border border-gray-800 transition-colors"
-          >
-            Load More
-          </button>
-        </div>
       </div>
     </main>
   );

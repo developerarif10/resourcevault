@@ -7,6 +7,10 @@
   --foreground: 237 237 237;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   color: rgb(var(--foreground));
   background: rgb(var(--background));

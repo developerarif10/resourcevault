@@ -21,7 +21,7 @@
     "icon": "https://getcssscan.com/favicon.ico"
   },
   {
-    "url": "react-icons.github.ion",
+    "url": "react-icons.github.io",
     "title": "React Icons",
     "description": "Great icon packs from many websites.",
     "category": "Development",
@@ -40,5 +40,138 @@
     "description": "Website copy instead of lorem ipsum.",
     "category": "Articles",
     "icon": "https://microcopy.me/favicon.ico"
+  },
+  {
+    "url": "dribbble.com",
+    "title": "Dribbble",
+    "description": "Discover top design projects and inspirations.",
+    "category": "Design",
+    "icon": "https://dribbble.com/favicon.ico"
+  },
+  {
+    "url": "unsplash.com",
+    "title": "Unsplash",
+    "description": "Free high-quality stock images.",
+    "category": "Resources",
+    "icon": "https://unsplash.com/favicon.ico"
+  },
+  {
+    "url": "flaticon.com",
+    "title": "Flaticon",
+    "description": "Free vector icons for your projects.",
+    "category": "Design",
+    "icon": "https://flaticon.com/favicon.ico"
+  },
+  {
+    "url": "github.com",
+    "title": "GitHub",
+    "description": "Code hosting platform for collaboration.",
+    "category": "Development",
+    "icon": "https://github.com/favicon.ico"
+  },
+  {
+    "url": "codepen.io",
+    "title": "CodePen",
+    "description": "Social development environment for front-end designers.",
+    "category": "Development",
+    "icon": "https://codepen.io/favicon.ico"
+  },
+  {
+    "url": "fontawesome.com",
+    "title": "Font Awesome",
+    "description": "Icon toolkit for scalable icons.",
+    "category": "Development",
+    "icon": "https://fontawesome.com/favicon.ico"
+  },
+  {
+    "url": "material.io",
+    "title": "Material Design",
+    "description": "Design resources and guidelines.",
+    "category": "Design",
+    "icon": "https://material.io/favicon.ico"
+  },
+  {
+    "url": "a11yproject.com",
+    "title": "The A11Y Project",
+    "description": "Accessibility resources for developers.",
+    "category": "Articles",
+    "icon": "https://a11yproject.com/favicon.ico"
+  },
+  {
+    "url": "css-tricks.com",
+    "title": "CSS-Tricks",
+    "description": "Tips and tricks for modern web development.",
+    "category": "Articles",
+    "icon": "https://css-tricks.com/favicon.ico"
+  },
+  {
+    "url": "figma.com",
+    "title": "Figma",
+    "description": "Collaborative design tool.",
+    "category": "Design",
+    "icon": "https://figma.com/favicon.ico"
+  },
+  {
+    "url": "coolors.co",
+    "title": "Coolors",
+    "description": "Generate beautiful color palettes.",
+    "category": "Design",
+    "icon": "https://coolors.co/favicon.ico"
+  },
+  {
+    "url": "canva.com",
+    "title": "Canva",
+    "description": "Online graphic design tool.",
+    "category": "Design",
+    "icon": "https://canva.com/favicon.ico"
+  },
+  {
+    "url": "web.dev",
+    "title": "Web.dev",
+    "description": "Learn web development with best practices.",
+    "category": "Development",
+    "icon": "https://web.dev/favicon.ico"
+  },
+  {
+    "url": "developer.mozilla.org",
+    "title": "MDN Web Docs",
+    "description": "Comprehensive documentation for web standards.",
+    "category": "Development",
+    "icon": "https://developer.mozilla.org/favicon.ico"
+  },
+  {
+    "url": "shadcn.dev",
+    "title": "Shadcn UI",
+    "description": "Beautiful UI components for your projects.",
+    "category": "Development",
+    "icon": "https://shadcn.dev/favicon.ico"
+  },
+  {
+    "url": "tailwindcss.com",
+    "title": "Tailwind CSS",
+    "description": "Utility-first CSS framework for building custom designs.",
+    "category": "Development",
+    "icon": "https://tailwindcss.com/favicon.ico"
+  },
+  {
+    "url": "mockupworld.co",
+    "title": "Mockup World",
+    "description": "Free design mockups for your projects.",
+    "category": "Design",
+    "icon": "https://mockupworld.co/favicon.ico"
+  },
+  {
+    "url": "iconmonstr.com",
+    "title": "Iconmonstr",
+    "description": "Simple and free vector icons.",
+    "category": "Design",
+    "icon": "https://iconmonstr.com/favicon.ico"
+  },
+  {
+    "url": "stackblitz.com",
+    "title": "StackBlitz",
+    "description": "Online IDE for web development.",
+    "category": "Development",
+    "icon": "https://stackblitz.com/favicon.ico"
   }
 ]
