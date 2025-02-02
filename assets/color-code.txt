@@ -1,0 +1,2 @@
+Primary color - #a29bfe
+Secondary color - #6c5ce7
