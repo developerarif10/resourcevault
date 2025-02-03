@@ -1,7 +1,12 @@
+import Link from "next/link";
+
 export function Card({ title, description, url, category }) {
+  // Ensure the URL has "https://" or "http://" prefix
+  const validUrl = url.startsWith("http") ? url : `https://${url}`;
+
   return (
-    <a
-      href={url}
+    <Link
+      href={validUrl}
       target="_blank"
       rel="noopener noreferrer"
       className="block h-full p-4 rounded-lg bg-[#1a1a1a] border border-gray-800 hover:border-gray-700 transition-colors"
@@ -15,6 +20,6 @@ export function Card({ title, description, url, category }) {
         </div>
         <p className="text-sm text-gray-400 line-clamp-2">{description}</p>
       </div>
-    </a>
+    </Link>
   );
 }

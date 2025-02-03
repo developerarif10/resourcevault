@@ -4,9 +4,10 @@ export function FilterTags({ selected, onSelect }) {
     "Design",
     "Development",
     "Fonts",
-    "Others",
+    "Animation",
     "Images",
     "Articles",
+    "Others",
   ];
 
   return (
