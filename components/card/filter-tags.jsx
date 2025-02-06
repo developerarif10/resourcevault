@@ -3,6 +3,7 @@ export function FilterTags({ selected, onSelect }) {
     "All",
     "Design",
     "Development",
+    "React UI & Component Libraries",
     "Fonts",
     "Animation",
     "Images",
