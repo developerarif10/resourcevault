@@ -1,7 +1,6 @@
 import Link from "next/link";
 
 export function Card({ title, description, url, category }) {
-  // Ensure the URL has "https://" or "http://" prefix
   const validUrl = url.startsWith("http") ? url : `https://${url}`;
 
   return (
