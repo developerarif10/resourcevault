@@ -11,7 +11,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata = {
-  title: "Resource Vault - Web Development Resources",
+  title: "Resource Vault - free developers resources",
   description: "Collection of useful web development resources and tools",
 };
 

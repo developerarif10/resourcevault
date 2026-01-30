@@ -7,7 +7,7 @@ const resourceSchema = new Schema({
   },
   url: {
     required: true,
-    // unique: true,
+    unique: true,
     type: String,
   },
   description: {

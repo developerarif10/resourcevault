@@ -10,7 +10,7 @@ export default async function Home() {
       style={{ backgroundImage: `url("/main_bg.svg")` }}
     >
       <div className="max-w-7xl mx-auto space-y-12">
-        <h1 className="text-4xl font-bold">Resources</h1>
+        <h1 className="text-4xl font-bold">Resources Vault for Developers</h1>
 
         {/* Search and Filter Section */}
         <FilteredCardPage resources={resources} />

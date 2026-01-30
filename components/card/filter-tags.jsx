@@ -1,31 +1,28 @@
-export function FilterTags({ selected, onSelect }) {
-  const tags = [
-    "All",
-    "Design",
-    "Development",
-    "React UI & Component Libraries",
-    "Fonts",
-    "Animation",
-    "Images",
-    "Articles",
-    "Others",
-  ];
+import { CATEGORIES } from "@/lib/categories-seed";
+import { ChevronDown } from "lucide-react";
 
+export function FilterTags({ selected, onSelect }) {
   return (
-    <div className="flex flex-wrap gap-3">
-      {tags.map((tag) => (
-        <button
-          key={tag}
-          onClick={() => onSelect(tag)}
-          className={`px-4 py-2 rounded-lg text-sm transition-colors ${
-            selected === tag
-              ? "bg-white text-black"
-              : "bg-[#1a1a1a] text-gray-400 hover:bg-[#252525]"
-          }`}
+    <div className="flex items-center gap-3">
+      <label htmlFor="category-select" className="text-sm text-gray-400">
+        Filter by Category:
+      </label>
+      <div className="relative inline-block w-full max-w-xs">
+        <select
+          id="category-select"
+          value={selected}
+          onChange={(e) => onSelect(e.target.value)}
+          className="w-full px-4 py-2 rounded-lg text-sm bg-[#1a1a1a] text-white border border-[#252525] hover:border-[#353535] focus:border-white focus:outline-none transition-colors appearance-none cursor-pointer pr-10"
         >
-          {tag}
-        </button>
-      ))}
+          <option value="All">All Categories</option>
+          {CATEGORIES.map((category) => (
+            <option key={category} value={category}>
+              {category}
+            </option>
+          ))}
+        </select>
+        <ChevronDown className="absolute right-3 top-1/2 transform -translate-y-1/2 w-4 h-4 text-gray-400 pointer-events-none" />
+      </div>
     </div>
   );
 }
