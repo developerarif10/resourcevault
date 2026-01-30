@@ -5,12 +5,14 @@ export default async function Home() {
   const resources = await getAllResources();
 
   return (
-    <main
-      className="min-h-screen p-6 md:p-12 bg-no-repeat bg-cover bg-center"
-      style={{ backgroundImage: `url("/main_bg.svg")` }}
-    >
+    <main className="min-h-screen p-6 md:p-12">
       <div className="max-w-7xl mx-auto space-y-12">
-        <h1 className="text-4xl font-bold">Resources Vault for Developers</h1>
+        <div className="space-y-4">
+          <h1 className="text-5xl md:text-6xl font-bold">Resources Vault</h1>
+          <p className="text-gray-400 text-lg">
+            Discover free developer tools and APIs
+          </p>
+        </div>
 
         {/* Search and Filter Section */}
         <FilteredCardPage resources={resources} />

@@ -32,11 +32,11 @@ export default function FilteredCardPage({ resources }) {
     <div className="space-y-8">
       <div className="space-y-6">
         <div className="relative">
-          <Search className="absolute left-4 top-1/2 -translate-y-1/2 text-gray-400" />
+          <Search className="absolute left-4 top-1/2 -translate-y-1/2 text-gray-600 w-5 h-5" />
           <input
             type="text"
             placeholder="Search resources..."
-            className="w-full h-14 pl-12 pr-4 rounded-lg bg-[#1a1a1a] border border-gray-800 focus:border-gray-700 focus:outline-none focus:ring-1 focus:ring-gray-700"
+            className="w-full h-14 pl-12 pr-4 rounded-lg bg-[#1a1a1a] border border-gray-800 focus:border-gray-700 focus:outline-none focus:ring-1 focus:ring-gray-700 transition-all"
             value={searchQuery}
             onChange={(e) => setSearchQuery(e.target.value)}
           />
@@ -47,7 +47,7 @@ export default function FilteredCardPage({ resources }) {
       {/* Responsive Grid */}
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-6">
         {visibleCards.length === 0 ? (
-          <span className="text-gray-300">Not Found!</span>
+          <span className="text-gray-400">No resources found</span>
         ) : (
           visibleCards.map((card, index) => (
             <div key={`${card.url}-${index}`} className="h-full">
@@ -62,7 +62,7 @@ export default function FilteredCardPage({ resources }) {
         <div className="flex justify-center pt-4">
           <button
             onClick={handleLoadMore}
-            className="px-6 py-3 bg-[#1a1a1a] hover:bg-[#252525] rounded-lg border border-gray-800 transition-colors"
+            className="px-6 py-3 bg-[#1a1a1a] hover:bg-[#252525] rounded-lg border border-gray-800 transition-colors text-gray-200 font-medium"
           >
             Load More
           </button>
